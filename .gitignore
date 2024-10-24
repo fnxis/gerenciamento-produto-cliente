@@ -11,7 +11,8 @@ env/
 # Configurações do IDE
 .idea/
 .vscode/
-
+db.json
+node_modules/
 # Arquivos de log
 *.log
 
