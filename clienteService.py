@@ -1,12 +1,12 @@
-clientes = [
-  {"id": 1, "nome": "Leonardo"},
-  {"id": 2, "nome": "Brenda"},
-  {"id": 3, "nome": "Catarina"}
-]
+from api/clientesApiService
+import clienteApiService
 
 class Cliente:
   TODOS = "TODOS"
   SAIR = "SAIR"
+
+  def __init__(self):
+    self.clienteApi=clienteApiService()
 
   def adicionarCliente(self):
     nome = input("Qual o nome do cliente que deseja adicionar? ")
